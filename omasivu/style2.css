@@ -4,3 +4,5 @@ html {background-color: #92A8D1;}
 h1 {text-align: center;}
 p {color: green;}
 h2 {color: darkblue;}
+h3 {border: 1px solid blue;}
+img {float: right;}
