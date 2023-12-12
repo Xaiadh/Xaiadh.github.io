@@ -1,99 +1,85 @@
-:root {
-    --spacing: 20px;
+nav a {
+    color: rgb(80, 212, 19);
 }
 
-@media screen and (min-width: 800px) {
-    :root {
-       --spacing: 4em;
-    }
- }
- 
- body {
-     font-family: 'Arial', sans-serif;
-     background-color: hsl(156, 96%, 72%);
-     color: hsl(209, 95%, 17%);
-     margin: 0;
-     line-height: 1.3em;
- }
-
-/*  Header  */
-
-header {
-    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.4);
- }
-
- header h1 {
+header h1 {
     margin: 0;
     font-size: 3em;
     top: 0;
-    color: hsl(96, 86%, 47%);
+    padding: 20px;
+    color: rgb(99, 221, 17);
     font-family: 'Georgia', sans-serif;
-    line-height: 1.2em;
 }
-   header nav {
-      margin-top: 40px;
-   }
-   header nav a {
-       color: hsl(101, 83.5%, 45.3%);
-   }
-   header nav h2 {
-      color: hsl(106, 86.6%, 46.9%);
-   }
 
-/*  Elements  */
+nav h2 {
+    color: rgb(64, 223, 16);
 
-footer,
-section {
-background-color: hsl(0, 0%, 50%);
-color: hsl(225, 100%, 12%);
+}
+
+nav {
+    padding: 20px;
+    
 }
 
 
-header,
-footer,
-article,
-section {
-    padding: var(--spacing);
-}
 
-figure {
-    margin: 0 0 0 calc( -1 * var(--spacing));
- }
-
- figure img {
-    width: 100vw;
+img {
+    width: 400px;
     height: auto;
- }
-
-@media screen and (min-width: 640px) {
- figure {
-     float: right;
-     margin-left: var(--spacing);
- }
-    figure img {
-       width: 400px;
-    }
 }
 
-h2 {
-    line-height: 1.2em;
- }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #73FCC6;
+    color: #022D55;
 
-/*  Classes  */
+}
+
+section {
+    background-color: #818080;
+    color: #00103E
+    ;
+}
+
+footer {
+    background-color: #818080;
+    color: #00103E;
+}
 
 .button {
     display: inline-block;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    border: 1px;
     border-radius: 4px;
-    background-color: hsl(240, 32%, 66%);
+    background-color: rgb(141, 141, 196);
     color: black;
     font-weight: bold;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3 ease;
     cursor: pointer;
 }
-.button:hover {
-    background-color: hsl(240, 32%, 36%);
-    color: white;
- }
+
+header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    
+    
+}
+
+
+article {
+    padding:  20px;
+    border: 1px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+section {
+    padding: 20px;
+    border: 1px;
+}
+
+
+
+figure {
+    float: right;
+}
