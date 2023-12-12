@@ -1,0 +1,99 @@
+:root {
+    --spacing: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    :root {
+       --spacing: 4em;
+    }
+ }
+ 
+ body {
+     font-family: 'Arial', sans-serif;
+     background-color: hsl(156, 96%, 72%);
+     color: hsl(209, 95%, 17%);
+     margin: 0;
+     line-height: 1.3em;
+ }
+
+/*  Header  */
+
+header {
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.4);
+ }
+
+ header h1 {
+    margin: 0;
+    font-size: 3em;
+    top: 0;
+    color: hsl(96, 86%, 47%);
+    font-family: 'Georgia', sans-serif;
+    line-height: 1.2em;
+}
+   header nav {
+      margin-top: 40px;
+   }
+   header nav a {
+       color: hsl(101, 83.5%, 45.3%);
+   }
+   header nav h2 {
+      color: hsl(106, 86.6%, 46.9%);
+   }
+
+/*  Elements  */
+
+footer,
+section {
+background-color: hsl(0, 0%, 50%);
+color: hsl(225, 100%, 12%);
+}
+
+
+header,
+footer,
+article,
+section {
+    padding: var(--spacing);
+}
+
+figure {
+    margin: 0 0 0 calc( -1 * var(--spacing));
+ }
+
+ figure img {
+    width: 100vw;
+    height: auto;
+ }
+
+@media screen and (min-width: 640px) {
+ figure {
+     float: right;
+     margin-left: var(--spacing);
+ }
+    figure img {
+       width: 400px;
+    }
+}
+
+h2 {
+    line-height: 1.2em;
+ }
+
+/*  Classes  */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: hsl(240, 32%, 66%);
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: hsl(240, 32%, 36%);
+    color: white;
+ }
