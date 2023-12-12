@@ -1,0 +1,57 @@
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    top: 0;
+    padding: 20px;
+    color: rgb(175, 5, 5);
+    font-family: 'Georgia', sans-serif;
+    background-color: #818080;
+}
+
+nav {
+    padding: 20px;
+    background-color: #73FCC6;
+}
+
+
+nav a {
+    color: rgb(80, 212, 19);
+}
+
+nav h2 {
+    color: rgb(64, 223, 16);
+
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #73FCC6;
+    color: #022D55;
+
+}
+
+article {
+    background-color:#73FCC6;
+    color: #00103E
+    ;
+}
+
+footer {
+    background-color: #818080;
+    color: #00103E;
+}
+
+article {
+    padding:  20px;
+    border: 1px;
+    transition: width 2s, height 2s, transform 2s;
+    background-color: #818080;
+}
+
+section {
+    padding: 20px;
+    border: 1px;
+}
+
